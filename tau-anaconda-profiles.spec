@@ -20,12 +20,12 @@ Provides tauOS Anaconda profiles for installation.
 %build
 
 %install
-mkdir -p %{buildroot}%{_sysconfdir}/anaconda/profiles.d/
-install -m 644 tauos.conf %{buildroot}%{_sysconfdir}/anaconda/profiles.d/
+mkdir -p %{buildroot}%{_sysconfdir}/anaconda/profile.d/
+install -m 644 tauos.conf %{buildroot}%{_sysconfdir}/anaconda/profile.d/
 
 %files
-%dir %{_sysconfdir}/anaconda/profiles.d/
-%{_sysconfdir}/anaconda/profiles.d/tauos.conf
+%dir %{_sysconfdir}/anaconda/profile.d/
+%{_sysconfdir}/anaconda/profile.d/tauos.conf
 
 %changelog
 * Sun Feb 27 2022 Jamie Lee <hello@jamiethalacker.dev> - 1.0.0-1
