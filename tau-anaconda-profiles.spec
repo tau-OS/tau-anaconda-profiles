@@ -10,7 +10,7 @@ Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 Provides:       tau-anaconda-profiles(%{version}) = %{release}
 
-Requires:       anaconda-core(%{dist_version})
+# Requires:       anaconda-core(%{dist_version})
 
 %description
 Provides tauOS Anaconda profiles for installation.
