@@ -1,4 +1,4 @@
-%define dist_version 35
+%define dist_version 36
 
 Summary:        tauOS Anaconda Profiles
 Name:           tau-anaconda-profiles
