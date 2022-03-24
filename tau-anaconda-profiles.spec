@@ -1,9 +1,9 @@
-%define dist_version 35
+%define dist_version 36
 
 Summary:        tauOS Anaconda Profiles
 Name:           tau-anaconda-profiles
-Version:        1
-Release:        1
+Version:        1.1
+Release:        0
 License:        GPLv3
 URL:            https://tauos.co
 Source0:        %{name}-%{version}.tar.gz
@@ -28,5 +28,8 @@ install -m 644 tauos-home.conf %{buildroot}%{_sysconfdir}/anaconda/profile.d/
 %{_sysconfdir}/anaconda/profile.d/tauos-home.conf
 
 %changelog
+* Wed Mar 23 2022 Jamie Lee <jamie@innatical.com> - 1.1-0
+- Update for Fedora 36
+
 * Sun Feb 27 2022 Jamie Lee <hello@jamiethalacker.dev> - 1.0.0-1
 - Initial Release
