@@ -1,9 +1,9 @@
-%define dist_version 36
+%define dist_version 37
 
 Summary:        tauOS Anaconda Profiles
 Name:           tau-anaconda-profiles
 Version:        1.1
-Release:        2
+Release:        3
 License:        GPLv3
 URL:            https://tauos.co
 Source0:        README.md
@@ -39,6 +39,9 @@ install -pm 0644 %SOURCE0 README.md
 %{_sysconfdir}/anaconda/profile.d/tau-core.conf
 
 %changelog
+* Mon Oct 3 2022 Jaiden Riordan <jade@fyralabs.com> - 1.1-3
+- Bump for F37
+
 * Sat May 21 2022 Lleyton Gray <lleyton@fyralabs.com> - 1.1-2
 - Fix and add core
 
